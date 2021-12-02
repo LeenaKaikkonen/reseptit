@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(to right, #e9f7fa, #ffffff);
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+h6 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button {
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(184, 235, 255);
+  border: 1px solid;
+  border-color: rgb(184, 184, 185);
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ruokateksti {
+  height: 30px;
+  border-width: 1px;
+  margin: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aineteksti {
+  height: 30px;
+  border-width: 1px;
+  margin: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+  display: inline;
+}
+
+table {
+  border: none;
+  font-size: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reseptikuva {
+  max-width: 312px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  background-image: linear-gradient(to left, #e9f7fa, #ffffff);
+}
+
+.col-4 {
+  margin-bottom: 50px;
+}
+
+.kokoresepti {
+  height: 40px;
+  margin: 10px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-color: rgb(184, 184, 185);
+  background: whitesmoke;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kokoresepti a {
+  color: black;
+  text-decoration: none;
+}
+
+.kokoresepti a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.kokoresepti a:hover {
+  color: black;
+  text-decoration: none;
+  background: #e9f7fa;
+}
+
+.kokoresepti a:active {
+  color: black;
+  text-decoration: none;
+  background: #e9f7fa;
+}
